@@ -1,11 +1,11 @@
 {
   "name": "timeframe-to-seconds",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert '<number><unit>' timeframes into number of seconds",
   "author": "Chris Campbell @quaelin",
   "repository": {
     "type": "git",
-    "url": "git://github.com/quaelin/timeframe-to-seconds.git"
+    "url": "git@github.com:quaelin/timeframe-to-seconds.git"
   },
   "main": "index",
   "license": "MIT",
