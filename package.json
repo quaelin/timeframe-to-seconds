@@ -8,5 +8,12 @@
     "url": "git://github.com/quaelin/timeframe-to-seconds.git"
   },
   "main": "index",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "lodash": "^4.11.1",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }
