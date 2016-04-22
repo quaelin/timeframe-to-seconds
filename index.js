@@ -8,7 +8,7 @@ function timeframeToSeconds(timeframe) {
    var
       tf = String(timeframe),
       num = parseFloat(tf),
-      units = (timeframe && tf.charAt(tf.length - 1)) || 's',
+      units = (+timeframe !== num && tf.charAt(tf.length - 1)) || 's',
       multiplier = secondsPer[units] || NaN
    ;
    return Math.floor(num * multiplier);
