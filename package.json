@@ -1,6 +1,6 @@
 {
   "name": "timeframe-to-seconds",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Convert '<number><unit>' timeframes into number of seconds",
   "author": "Chris Campbell @quaelin",
   "repository": {
@@ -9,7 +9,7 @@
   },
   "main": "index",
   "bin": {
-    "timeframe-to-seconds": "./index.js"
+    "timeframe-to-seconds": "./bin"
   },
   "license": "MIT",
   "devDependencies": {
