@@ -1,2 +1,4 @@
-#!/usr/bin/env sh
-node ./index.js $@
+#!/usr/bin/env node
+
+const timeframeToSeconds = require('./index');
+console.log(timeframeToSeconds(process.argv[2]));

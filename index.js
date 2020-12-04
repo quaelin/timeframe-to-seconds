@@ -14,8 +14,4 @@ function timeframeToSeconds(timeframe) {
    return Math.floor(num * multiplier);
 }
 
-if (require.main === module) {
-  console.log(timeframeToSeconds(process.argv[2]));
-}
-
 module.exports = timeframeToSeconds;

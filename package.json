@@ -1,6 +1,6 @@
 {
   "name": "timeframe-to-seconds",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Convert '<number><unit>' timeframes into number of seconds",
   "author": "Chris Campbell @quaelin",
   "repository": {
