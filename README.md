@@ -1,5 +1,5 @@
 ```js
-var timeframeToSeconds = require('timeframe-to-seconds');
+const timeframeToSeconds = require('timeframe-to-seconds');
 
 timeframeToSeconds('1m'); // 60
 timeframeToSeconds('3m'); // 180
@@ -10,6 +10,6 @@ timeframeToSeconds('1w'); // 604800
 ```
 
 ```sh
-$ node timeframe-to-seconds 12h
+$ npx timeframe-to-seconds 12h
 43200
 ```
