@@ -14,7 +14,7 @@
   "license": "MIT",
   "devDependencies": {
     "lodash": "^4.17.20",
-    "mocha": "^8.2.1"
+    "mocha": "^10.2.0"
   },
   "scripts": {
     "test": "mocha"
